@@ -19,7 +19,7 @@ python3 --version
 ```
 Python libraries [numpy](http://www.numpy.org) and [scikit-image](https://scikit-image.org/) should installed. If not, depending on which ones are not present, run
 ```bash
-brew install python3, numpy, skimage
+brew install python3 numpy skimage
 ```
 
 ## Instructions
