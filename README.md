@@ -39,10 +39,6 @@ To compress an image, simply enter the image name and the number of clusters. Th
 ```bash
 image-to-compress.png 16
 ```
-end the program
-```bash
-exit()
-```
 You will see two new files 'image-to-compress_clusters.png' and 'image-to-compress_means.npy'.
 These contain the data to reconstruct the original image.
 
@@ -51,10 +47,6 @@ To reconstruct the original image, you need to have the 'image-to-compress_clust
 Now run img_decompress.py
 ```bash
 image-to-compress.png
-```
-end the program
-```bash
-exit()
 ```
 The final decompressed image will be created.
 
