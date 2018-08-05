@@ -1,6 +1,6 @@
 import sys
 import os.path
-import cv2
+#import cv2
 import numpy as np
 from skimage import io
 #import matplotlib.pyplot as plt
@@ -15,7 +15,7 @@ if __name__ == "__main__":
 		else:
 			raise FileNotFoundError
 	except ValueError:
-		print("Enter _clusters path")
+		print("Enter _clusters path as 'xyz.png'")
 		sys.exit(1)
 	except FileNotFoundError:
 		print("FileNotFoundError : '" + name + "' was not found!")
